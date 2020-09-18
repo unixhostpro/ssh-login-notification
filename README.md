@@ -20,4 +20,10 @@
 В файл /etc/pam.d/common-session добавляем следующую строку 
 > session optional pam_exec.so type=open_session seteuid/usr/local/bin/ssh-login-notification.sh
 
-[UnixHost](https://unixhost.pro/)
+
+[Наш сайт UnixHost](https://unixhost.pro/)
+[Блог UnixHost](https://blog.unixhost.pro/)
+[Telegram](https://t.me/unixhostpro)
+[Twitter](https://twitter.com/UnixHostPro)
+[Facebook](https://www.facebook.com/unixhost.pro)
+[Вконтакте](https://vk.com/unixhost)
