@@ -18,7 +18,7 @@
 > chmod +x /usr/local/bin/ssh_login_info.sh
 
 В файл /etc/pam.d/common-session добавляем следующую строку 
-> echo -e "session optional pam_exec.so type=open_session seteuid /usr/local/bin/ssh_login_info.sh" >> /etc/pam.d/common-session
+> echo "session optional pam_exec.so type=open_session seteuid /usr/local/bin/ssh_login_info.sh" >> /etc/pam.d/common-session
 
 
 [Наш сайт UnixHost](https://unixhost.pro/)
