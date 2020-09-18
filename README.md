@@ -18,4 +18,6 @@
 > chmod +x /usr/local/bin/ssh_login_info.sh
 
 В файл /etc/pam.d/common-session добавляем следующую строку 
-session optional pam_exec.so type=open_session seteuid/usr/local/bin/ssh-login-notification.sh
+> session optional pam_exec.so type=open_session seteuid/usr/local/bin/ssh-login-notification.sh
+
+[UnixHost](https://unixhost.pro/)
