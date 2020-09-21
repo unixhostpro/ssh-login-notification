@@ -13,6 +13,7 @@
 
 Установка :
 Копируем скрипт в /usr/local/bin/
+> wget -P /usr/local/bin/ https://raw.githubusercontent.com/unixhostpro/ssh-login-notification/master/ssh_login_info.sh
 
 Устанавливаем права на запуск 
 > chmod +x /usr/local/bin/ssh_login_info.sh
