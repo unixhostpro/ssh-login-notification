@@ -1,5 +1,5 @@
 # ssh-login-notification
-[![Watch the video](https://img.youtube.com/vi/a6gkXZ-2pQI/maxresdefault.jpg)](https://youtu.be/a6gkXZ-2pQI)
+[![Watch the video](https://img.youtube.com/vi/a6gkXZ-2pQI/0.jpg)](https://youtu.be/a6gkXZ-2pQI)
 
 
 Данный скрипт, при каждом новом входе по SSH, отправляет Вам уведомление в телеграм. 
