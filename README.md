@@ -23,7 +23,12 @@
 Устанавливаем права на запуск 
 > chmod +x /usr/local/bin/ssh_login_info.sh
 
+Ubuntu
 В файл /etc/pam.d/common-session добавляем следующую строку 
+> echo "session optional pam_exec.so type=open_session seteuid /usr/local/bin/ssh_login_info.sh" >> /etc/pam.d/common-session
+
+CentOS
+В файл /etc/pam.d/sshd добавляем следующую строку 
 > echo "session optional pam_exec.so type=open_session seteuid /usr/local/bin/ssh_login_info.sh" >> /etc/pam.d/common-session
 
 
