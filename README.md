@@ -42,4 +42,3 @@ CentOS
 
 [Facebook](https://www.facebook.com/unixhost.pro)
 
-[Вконтакте](https://vk.com/unixhost)
